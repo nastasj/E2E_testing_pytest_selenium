@@ -1,4 +1,4 @@
-from pages.feature_page import FeaturePage
+from .pages.feature_page import FeaturePage
 import pytest
 
 link = "https://m.avito.ru/moskva/kommercheskaya_nedvizhimost?cd=1&searchForm=true"
