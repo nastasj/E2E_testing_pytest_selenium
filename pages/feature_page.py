@@ -53,13 +53,14 @@ class FeaturePage(BasePage):
         self.scroll_up()
         self.switch_tab(*FeaturePageLocators.LINE_CHOOSER_TAB)
         choice2 = self.browser.find_element(*FeaturePageLocators.STATION_LINES_LIST_WITH_CHECKBOXES).get_attribute('textContent')
+        print(choice2)
         assert len(self.browser.find_elements(*FeaturePageLocators.LIST_EXTENDED)) == 0 and choice == choice2
 
     def reset_button_should_be_disabled(self):
-        self.is_element_disabled(*FeaturePageLocators.RESET_BUTTON_DISABLED)
+        self.is_element_disabled(*FeaturePageLocators.RESET_BUTTON, 'aria-disabled')
 
     def reset_button_should_be_enabled(self):
-        self.is_element_enabled(*FeaturePageLocators.RESET_BUTTON_ENABLED)
+        self.is_element_enabled(*FeaturePageLocators.RESET_BUTTON)
 
     def stations_list_should_be_closed_while_searching_in_search_box(self):
         self.browser.find_element(*FeaturePageLocators.SUBWAY_SEARCH_BOX).send_keys(' ')

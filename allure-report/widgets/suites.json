@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "917a0c02680c37b5bd20fc0cfbd8b6d9",
+    "name" : "PycharmProjects.E2E_testing_pytest_selenium",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 19
+    }
+  } ]
+}

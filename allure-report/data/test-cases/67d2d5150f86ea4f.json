@@ -1,0 +1,115 @@
+{
+  "uid" : "67d2d5150f86ea4f",
+  "name" : "test_switching_tabs_saves_checkboxes",
+  "fullName" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature.TestFeature#test_switching_tabs_saves_checkboxes",
+  "historyId" : "19d00e242e25b26a80dded0a9ded2b39",
+  "time" : {
+    "start" : 1616224400863,
+    "stop" : 1616224425641,
+    "duration" : 24778
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616224399469,
+      "stop" : 1616224400862,
+      "duration" : 1393
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1616224399339,
+      "stop" : 1616224399469,
+      "duration" : 130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3f6935dcd7b91cd",
+      "name" : "stdout",
+      "source" : "c3f6935dcd7b91cd.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616224425643,
+      "stop" : 1616224427889,
+      "duration" : 2246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFeature"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-14630NPT"
+  }, {
+    "name" : "thread",
+    "value" : "3780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67d2d5150f86ea4f.json",
+  "parameterValues" : [ ]
+}

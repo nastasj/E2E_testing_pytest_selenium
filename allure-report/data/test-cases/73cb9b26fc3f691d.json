@@ -1,0 +1,125 @@
+{
+  "uid" : "73cb9b26fc3f691d",
+  "name" : "test_search_results_contain_letter",
+  "fullName" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature.TestFeature#test_search_results_contain_letter",
+  "historyId" : "9ee443792850342810914cf834f9e734",
+  "time" : {
+    "start" : 1616224685838,
+    "stop" : 1616224690612,
+    "duration" : 4774
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <E2E_testing_pytest_selenium.test_feature.TestFeature object at 0x0000012F25046BB0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f5b5dc19fe53855883a3a32aadfed92a\")>\n\n    def test_search_results_contain_letter(self, browser):\n        page = FeaturePage(browser, link)\n        page.open()\n>       page.search_results_should_contain_letter()\n\ntest_feature.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <E2E_testing_pytest_selenium.pages.feature_page.FeaturePage object at 0x0000012F2505C7C0>\n\n    def search_results_should_contain_letter(self):\n        upper_letter, lower_letter = self.choose_random_letter()\n        self.browser.find_element(*FeaturePageLocators.CITY_CHOOSER_FIELD).click()\n        self.browser.find_element(*FeaturePageLocators.CITY_SEARCH_BOX).send_keys(upper_letter)\n        suggested_list = self.browser.find_elements(*FeaturePageLocators.CITY_SUGGESTED)\n        for i in range(len(suggested_list)):\n            suggest = suggested_list[i].get_attribute('textContent')\n>           assert upper_letter in suggest or 'Россия' in suggest or lower_letter in suggest\nE           AssertionError\n\npages\\feature_page.py:97: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616224684456,
+      "stop" : 1616224685837,
+      "duration" : 1381
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1616224399339,
+      "stop" : 1616224399469,
+      "duration" : 130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <E2E_testing_pytest_selenium.test_feature.TestFeature object at 0x0000012F25046BB0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f5b5dc19fe53855883a3a32aadfed92a\")>\n\n    def test_search_results_contain_letter(self, browser):\n        page = FeaturePage(browser, link)\n        page.open()\n>       page.search_results_should_contain_letter()\n\ntest_feature.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <E2E_testing_pytest_selenium.pages.feature_page.FeaturePage object at 0x0000012F2505C7C0>\n\n    def search_results_should_contain_letter(self):\n        upper_letter, lower_letter = self.choose_random_letter()\n        self.browser.find_element(*FeaturePageLocators.CITY_CHOOSER_FIELD).click()\n        self.browser.find_element(*FeaturePageLocators.CITY_SEARCH_BOX).send_keys(upper_letter)\n        suggested_list = self.browser.find_elements(*FeaturePageLocators.CITY_SUGGESTED)\n        for i in range(len(suggested_list)):\n            suggest = suggested_list[i].get_attribute('textContent')\n>           assert upper_letter in suggest or 'Россия' in suggest or lower_letter in suggest\nE           AssertionError\n\npages\\feature_page.py:97: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a4d1c917f3ca7d10",
+      "name" : "screenshot",
+      "source" : "a4d1c917f3ca7d10.png",
+      "type" : "image/png",
+      "size" : 17155
+    }, {
+      "uid" : "b53f4b234cee9da",
+      "name" : "stdout",
+      "source" : "b53f4b234cee9da.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616224691084,
+      "stop" : 1616224693262,
+      "duration" : 2178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFeature"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-14630NPT"
+  }, {
+    "name" : "thread",
+    "value" : "3780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73cb9b26fc3f691d.json",
+  "parameterValues" : [ ]
+}

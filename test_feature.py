@@ -20,7 +20,7 @@ class TestFeature:
         page.open_filter_screen()
         page.should_be_floating_button_after_choosing_station()
 
-    # при выборе любой станции из алфавитного списка, выбор дублируется и внутри линии, при этом линия не разворачивается
+    # при выборе любой станции из алфавитного списка выбор дублируется и внутри линии, при этом линия не разворачивается
     def test_choice_repeats_line_tab_lines_dont_extend(self, browser):
         page = FeaturePage(browser, link)
         page.open()
@@ -37,14 +37,14 @@ class TestFeature:
         page.scroll_up()
         page.reset_button_should_be_enabled()
 
-    # при выборе станции метро через поисковую строку, поиск закрывается
+    # при выборе станции метро через поисковую строку список станций исчезает
     def test_stations_list_closed_while_searching_in_search_box(self, browser):
         page = FeaturePage(browser, link)
         page.open()
         page.open_filter_screen()
         page.stations_list_should_be_closed_while_searching_in_search_box()
 
-    # на экране “Уточнить”, примененный фильтр по метро отображаем с формулировкой "Выбрано n станций"
+    # на экране “Уточнить” примененный фильтр по метро отображаем с формулировкой "Выбрано n станций"
     def test_correct_words_on_choice_button(self, browser):
         page = FeaturePage(browser, link)
         page.open()

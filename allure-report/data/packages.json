@@ -1,0 +1,256 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature",
+    "children" : [ {
+      "name" : "test_switching_tabs_saves_checkboxes",
+      "uid" : "3ab563544f7e074a",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225244668,
+        "stop" : 1616225270472,
+        "duration" : 25804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_floating_button_appear_after_choosing_station",
+      "uid" : "38e9f8202902b1f6",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225274083,
+        "stop" : 1616225278869,
+        "duration" : 4786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+      "uid" : "91895af80fda3af",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225282387,
+        "stop" : 1616225297275,
+        "duration" : 14888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_reset_button_is_disabled",
+      "uid" : "33480ecdca3bd833",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225301194,
+        "stop" : 1616225307118,
+        "duration" : 5924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_stations_list_closed_while_searching_in_search_box",
+      "uid" : "84ff653548d345b0",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225310771,
+        "stop" : 1616225325524,
+        "duration" : 14753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_correct_words_on_choice_button",
+      "uid" : "d496d101d623094f",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225329281,
+        "stop" : 1616225348497,
+        "duration" : 19216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Москва]",
+      "uid" : "18b3cbd1a5c772dc",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225352087,
+        "stop" : 1616225361319,
+        "duration" : 9232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Москва'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Москва и МО]",
+      "uid" : "64e2ff49fcafb42b",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225364884,
+        "stop" : 1616225372440,
+        "duration" : 7556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Москва и МО'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Санкт-Петербург]",
+      "uid" : "cd4f4b3d117b05b8",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225376288,
+        "stop" : 1616225385447,
+        "duration" : 9159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Санкт-Петербург'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Санкт-Петербург и ЛО]",
+      "uid" : "467d66afee24b63e",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225389084,
+        "stop" : 1616225398128,
+        "duration" : 9044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Санкт-Петербург и ЛО'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Казань]",
+      "uid" : "bb4ce94021f9d9e9",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225401774,
+        "stop" : 1616225410209,
+        "duration" : 8435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Казань'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+      "uid" : "61a1399b23bdead3",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225413875,
+        "stop" : 1616225422200,
+        "duration" : 8325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Екатеринбург'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Нижний Новгород]",
+      "uid" : "c9342904da0e0eff",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225425977,
+        "stop" : 1616225434042,
+        "duration" : 8065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Нижний Новгород'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Новосибирск]",
+      "uid" : "a0698c18af9e9ede",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225437686,
+        "stop" : 1616225445965,
+        "duration" : 8279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Новосибирск'" ]
+    }, {
+      "name" : "test_subway_field_in_subway_cities[Самара]",
+      "uid" : "295833a18d2c22df",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225449887,
+        "stop" : 1616225458574,
+        "duration" : 8687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Самара'" ]
+    }, {
+      "name" : "test_subway_field_not_in_other_cities[Краснодар]",
+      "uid" : "369af33be1d5b02b",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225462280,
+        "stop" : 1616225481209,
+        "duration" : 18929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Краснодар'" ]
+    }, {
+      "name" : "test_subway_field_not_in_other_cities[Тамбов]",
+      "uid" : "e7ba698ddbc12481",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225484875,
+        "stop" : 1616225503636,
+        "duration" : 18761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Тамбов'" ]
+    }, {
+      "name" : "test_subway_field_not_in_other_cities[Челябинск]",
+      "uid" : "5c5736a03fbe324a",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616225507484,
+        "stop" : 1616225526246,
+        "duration" : 18762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Челябинск'" ]
+    }, {
+      "name" : "test_search_results_contain_letter",
+      "uid" : "cfd79d8eba5bfe11",
+      "parentUid" : "9d58a6edaaf9d5fae3601cfe269f4e2a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1616225529972,
+        "stop" : 1616225536013,
+        "duration" : 6041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature"
+  } ]
+}

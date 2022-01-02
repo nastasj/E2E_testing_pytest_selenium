@@ -1,0 +1,152 @@
+{
+  "uid" : "91895af80fda3af",
+  "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+  "fullName" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature.TestFeature#test_choice_repeats_line_tab_lines_dont_extend",
+  "historyId" : "3fa377288db67b795bbe579b2916a089",
+  "time" : {
+    "start" : 1616225282387,
+    "stop" : 1616225297275,
+    "duration" : 14888
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1616225243265,
+      "stop" : 1616225243379,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616225281105,
+      "stop" : 1616225282386,
+      "duration" : 1281
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a84e19d9c8259739",
+      "name" : "stdout",
+      "source" : "a84e19d9c8259739.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616225297277,
+      "stop" : 1616225299672,
+      "duration" : 2395
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFeature"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-14630NPT"
+  }, {
+    "name" : "thread",
+    "value" : "10324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6685914d652ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616224773709,
+        "stop" : 1616224788798,
+        "duration" : 15089
+      }
+    }, {
+      "uid" : "c3e1a90be63bed92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616224438791,
+        "stop" : 1616224454872,
+        "duration" : 16081
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3143fc49068daa5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224438791,
+          "stop" : 1616224454872,
+          "duration" : 16081
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "91895af80fda3af.json",
+  "parameterValues" : [ ]
+}

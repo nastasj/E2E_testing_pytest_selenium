@@ -1,0 +1,762 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-14630NPT",
+    "children" : [ {
+      "name" : "9032-MainThread",
+      "children" : [ {
+        "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+        "uid" : "6685914d652ae2",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224773709,
+          "stop" : 1616224788798,
+          "duration" : 15089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reset_button_is_disabled",
+        "uid" : "7e9f12e64409add4",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224792431,
+          "stop" : 1616224796821,
+          "duration" : 4390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург]",
+        "uid" : "c505cd3e7ecaf235",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224863430,
+          "stop" : 1616224871544,
+          "duration" : 8114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+        "uid" : "8dc4301b0ebaccd6",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224899933,
+          "stop" : 1616224908303,
+          "duration" : 8370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Екатеринбург'" ]
+      }, {
+        "name" : "test_floating_button_appear_after_choosing_station",
+        "uid" : "a5053f2e21b07ad0",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224765658,
+          "stop" : 1616224769972,
+          "duration" : 4314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_correct_words_on_choice_button",
+        "uid" : "3b27afcce26a1b9",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224818933,
+          "stop" : 1616224836164,
+          "duration" : 17231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_results_contain_letter",
+        "uid" : "a08da74e862f5aba",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225020047,
+          "stop" : 1616225024667,
+          "duration" : 4620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Новосибирск]",
+        "uid" : "2cf981eba405ed62",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224924098,
+          "stop" : 1616224932565,
+          "duration" : 8467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Новосибирск'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Тамбов]",
+        "uid" : "f9073544c3498f56",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224972237,
+          "stop" : 1616224992452,
+          "duration" : 20215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Тамбов'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва и МО]",
+        "uid" : "29240094aa3b3e25",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224851491,
+          "stop" : 1616224859796,
+          "duration" : 8305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва и МО'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Казань]",
+        "uid" : "53644a9d465954e0",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224887214,
+          "stop" : 1616224896279,
+          "duration" : 9065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Казань'" ]
+      }, {
+        "name" : "test_stations_list_closed_while_searching_in_search_box",
+        "uid" : "86ee89601d2d36e7",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224800331,
+          "stop" : 1616224815221,
+          "duration" : 14890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург и ЛО]",
+        "uid" : "45f6686a3e115d78",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224875221,
+          "stop" : 1616224883489,
+          "duration" : 8268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург и ЛО'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Краснодар]",
+        "uid" : "f7b9bf680c50477f",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224949888,
+          "stop" : 1616224968402,
+          "duration" : 18514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Краснодар'" ]
+      }, {
+        "name" : "test_switching_tabs_saves_checkboxes",
+        "uid" : "51afa4acb929655e",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224743136,
+          "stop" : 1616224761926,
+          "duration" : 18790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Нижний Новгород]",
+        "uid" : "2d0b80f76aa27c05",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224911941,
+          "stop" : 1616224920312,
+          "duration" : 8371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Нижний Новгород'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва]",
+        "uid" : "2836678756a9460f",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224839936,
+          "stop" : 1616224847682,
+          "duration" : 7746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Самара]",
+        "uid" : "989a0f14c0373b05",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224936340,
+          "stop" : 1616224945820,
+          "duration" : 9480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Самара'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Челябинск]",
+        "uid" : "7377a2f7b72132bc",
+        "parentUid" : "f147e0e280fa8db4c2a6ac90ab9b3246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224996214,
+          "stop" : 1616225016003,
+          "duration" : 19789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Челябинск'" ]
+      } ],
+      "uid" : "f147e0e280fa8db4c2a6ac90ab9b3246"
+    }, {
+      "name" : "3780-MainThread",
+      "children" : [ {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург]",
+        "uid" : "1945d97872e95d98",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224533079,
+          "stop" : 1616224541408,
+          "duration" : 8329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург'" ]
+      }, {
+        "name" : "test_floating_button_appear_after_choosing_station",
+        "uid" : "5698439e608c9a78",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224429292,
+          "stop" : 1616224435118,
+          "duration" : 5826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Челябинск]",
+        "uid" : "b231f8bd8f4ae84e",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224662815,
+          "stop" : 1616224682102,
+          "duration" : 19287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Челябинск'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Тамбов]",
+        "uid" : "1d2733b7f321b27b",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224640647,
+          "stop" : 1616224659093,
+          "duration" : 18446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Тамбов'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Казань]",
+        "uid" : "34a77282f6acf646",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224556790,
+          "stop" : 1616224564245,
+          "duration" : 7455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Казань'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Нижний Новгород]",
+        "uid" : "c4e8accdda97620",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224580293,
+          "stop" : 1616224588538,
+          "duration" : 8245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Нижний Новгород'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Краснодар]",
+        "uid" : "5914cb6b045a75c6",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224617298,
+          "stop" : 1616224636804,
+          "duration" : 19506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Краснодар'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва]",
+        "uid" : "9d220b1dae888d53",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224508044,
+          "stop" : 1616224516144,
+          "duration" : 8100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва'" ]
+      }, {
+        "name" : "test_stations_list_closed_while_searching_in_search_box",
+        "uid" : "d6ec6057ce55c371",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224466624,
+          "stop" : 1616224481571,
+          "duration" : 14947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_switching_tabs_saves_checkboxes",
+        "uid" : "67d2d5150f86ea4f",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224400863,
+          "stop" : 1616224425641,
+          "duration" : 24778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург и ЛО]",
+        "uid" : "1108777b36beab49",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224545008,
+          "stop" : 1616224553095,
+          "duration" : 8087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург и ЛО'" ]
+      }, {
+        "name" : "test_correct_words_on_choice_button",
+        "uid" : "31bb0e065dadeb20",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224485353,
+          "stop" : 1616224504267,
+          "duration" : 18914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва и МО]",
+        "uid" : "79f9e9d01ede0108",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224519978,
+          "stop" : 1616224529481,
+          "duration" : 9503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва и МО'" ]
+      }, {
+        "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+        "uid" : "c3e1a90be63bed92",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224438791,
+          "stop" : 1616224454872,
+          "duration" : 16081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_results_contain_letter",
+        "uid" : "73cb9b26fc3f691d",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616224685838,
+          "stop" : 1616224690612,
+          "duration" : 4774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Самара]",
+        "uid" : "e35f8dbaf678b3ca",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224605232,
+          "stop" : 1616224613389,
+          "duration" : 8157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Самара'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+        "uid" : "c6fdd687c5b2e69a",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224567921,
+          "stop" : 1616224576664,
+          "duration" : 8743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Екатеринбург'" ]
+      }, {
+        "name" : "test_reset_button_is_disabled",
+        "uid" : "49c6ea2a9ca15dfd",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224458710,
+          "stop" : 1616224463018,
+          "duration" : 4308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Новосибирск]",
+        "uid" : "a8ca0be90150f4f1",
+        "parentUid" : "2749894157bb6305ba2fa5e01c60119f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224592105,
+          "stop" : 1616224601332,
+          "duration" : 9227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Новосибирск'" ]
+      } ],
+      "uid" : "2749894157bb6305ba2fa5e01c60119f"
+    }, {
+      "name" : "10324-MainThread",
+      "children" : [ {
+        "name" : "test_subway_field_not_in_other_cities[Тамбов]",
+        "uid" : "e7ba698ddbc12481",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225484875,
+          "stop" : 1616225503636,
+          "duration" : 18761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Тамбов'" ]
+      }, {
+        "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+        "uid" : "91895af80fda3af",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225282387,
+          "stop" : 1616225297275,
+          "duration" : 14888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+        "uid" : "61a1399b23bdead3",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225413875,
+          "stop" : 1616225422200,
+          "duration" : 8325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Екатеринбург'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Краснодар]",
+        "uid" : "369af33be1d5b02b",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225462280,
+          "stop" : 1616225481209,
+          "duration" : 18929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Краснодар'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва]",
+        "uid" : "18b3cbd1a5c772dc",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225352087,
+          "stop" : 1616225361319,
+          "duration" : 9232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург]",
+        "uid" : "cd4f4b3d117b05b8",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225376288,
+          "stop" : 1616225385447,
+          "duration" : 9159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург'" ]
+      }, {
+        "name" : "test_correct_words_on_choice_button",
+        "uid" : "d496d101d623094f",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225329281,
+          "stop" : 1616225348497,
+          "duration" : 19216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_results_contain_letter",
+        "uid" : "cfd79d8eba5bfe11",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616225529972,
+          "stop" : 1616225536013,
+          "duration" : 6041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reset_button_is_disabled",
+        "uid" : "33480ecdca3bd833",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225301194,
+          "stop" : 1616225307118,
+          "duration" : 5924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Нижний Новгород]",
+        "uid" : "c9342904da0e0eff",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225425977,
+          "stop" : 1616225434042,
+          "duration" : 8065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Нижний Новгород'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Санкт-Петербург и ЛО]",
+        "uid" : "467d66afee24b63e",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225389084,
+          "stop" : 1616225398128,
+          "duration" : 9044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Санкт-Петербург и ЛО'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Самара]",
+        "uid" : "295833a18d2c22df",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225449887,
+          "stop" : 1616225458574,
+          "duration" : 8687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Самара'" ]
+      }, {
+        "name" : "test_subway_field_not_in_other_cities[Челябинск]",
+        "uid" : "5c5736a03fbe324a",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225507484,
+          "stop" : 1616225526246,
+          "duration" : 18762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Челябинск'" ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Новосибирск]",
+        "uid" : "a0698c18af9e9ede",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225437686,
+          "stop" : 1616225445965,
+          "duration" : 8279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Новосибирск'" ]
+      }, {
+        "name" : "test_floating_button_appear_after_choosing_station",
+        "uid" : "38e9f8202902b1f6",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225274083,
+          "stop" : 1616225278869,
+          "duration" : 4786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Москва и МО]",
+        "uid" : "64e2ff49fcafb42b",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225364884,
+          "stop" : 1616225372440,
+          "duration" : 7556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Москва и МО'" ]
+      }, {
+        "name" : "test_stations_list_closed_while_searching_in_search_box",
+        "uid" : "84ff653548d345b0",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225310771,
+          "stop" : 1616225325524,
+          "duration" : 14753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_switching_tabs_saves_checkboxes",
+        "uid" : "3ab563544f7e074a",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225244668,
+          "stop" : 1616225270472,
+          "duration" : 25804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_subway_field_in_subway_cities[Казань]",
+        "uid" : "bb4ce94021f9d9e9",
+        "parentUid" : "f9278815aa4b6dfe89088a6c5e5d7df1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616225401774,
+          "stop" : 1616225410209,
+          "duration" : 8435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Казань'" ]
+      } ],
+      "uid" : "f9278815aa4b6dfe89088a6c5e5d7df1"
+    } ],
+    "uid" : "2b629a789bc71e1c5942a5d8b9c4bf7c"
+  } ]
+}

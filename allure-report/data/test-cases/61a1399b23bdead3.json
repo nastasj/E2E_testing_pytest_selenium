@@ -1,0 +1,155 @@
+{
+  "uid" : "61a1399b23bdead3",
+  "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+  "fullName" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature.TestFeature#test_subway_field_in_subway_cities",
+  "historyId" : "46888d03da65345047b2d296589f52cf",
+  "time" : {
+    "start" : 1616225413875,
+    "stop" : 1616225422200,
+    "duration" : 8325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616225412445,
+      "stop" : 1616225413874,
+      "duration" : 1429
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1616225243265,
+      "stop" : 1616225243379,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5dff4a2ceb6d2101",
+      "name" : "stdout",
+      "source" : "5dff4a2ceb6d2101.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616225422205,
+      "stop" : 1616225424509,
+      "duration" : 2304
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFeature"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-14630NPT"
+  }, {
+    "name" : "thread",
+    "value" : "10324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PycharmProjects.E2E_testing_pytest_selenium.test_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "city",
+    "value" : "'Екатеринбург'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8dc4301b0ebaccd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616224899933,
+        "stop" : 1616224908303,
+        "duration" : 8370
+      }
+    }, {
+      "uid" : "c6fdd687c5b2e69a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616224567921,
+        "stop" : 1616224576664,
+        "duration" : 8743
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7c56a6494b7d933d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616224567921,
+          "stop" : 1616224576664,
+          "duration" : 8743
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61a1399b23bdead3.json",
+  "parameterValues" : [ "'Екатеринбург'" ]
+}

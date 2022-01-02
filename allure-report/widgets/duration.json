@@ -1,0 +1,191 @@
+[ {
+  "uid" : "91895af80fda3af",
+  "name" : "test_choice_repeats_line_tab_lines_dont_extend",
+  "time" : {
+    "start" : 1616225282387,
+    "stop" : 1616225297275,
+    "duration" : 14888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd4f4b3d117b05b8",
+  "name" : "test_subway_field_in_subway_cities[Санкт-Петербург]",
+  "time" : {
+    "start" : 1616225376288,
+    "stop" : 1616225385447,
+    "duration" : 9159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84ff653548d345b0",
+  "name" : "test_stations_list_closed_while_searching_in_search_box",
+  "time" : {
+    "start" : 1616225310771,
+    "stop" : 1616225325524,
+    "duration" : 14753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ab563544f7e074a",
+  "name" : "test_switching_tabs_saves_checkboxes",
+  "time" : {
+    "start" : 1616225244668,
+    "stop" : 1616225270472,
+    "duration" : 25804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9342904da0e0eff",
+  "name" : "test_subway_field_in_subway_cities[Нижний Новгород]",
+  "time" : {
+    "start" : 1616225425977,
+    "stop" : 1616225434042,
+    "duration" : 8065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38e9f8202902b1f6",
+  "name" : "test_floating_button_appear_after_choosing_station",
+  "time" : {
+    "start" : 1616225274083,
+    "stop" : 1616225278869,
+    "duration" : 4786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18b3cbd1a5c772dc",
+  "name" : "test_subway_field_in_subway_cities[Москва]",
+  "time" : {
+    "start" : 1616225352087,
+    "stop" : 1616225361319,
+    "duration" : 9232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61a1399b23bdead3",
+  "name" : "test_subway_field_in_subway_cities[Екатеринбург]",
+  "time" : {
+    "start" : 1616225413875,
+    "stop" : 1616225422200,
+    "duration" : 8325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0698c18af9e9ede",
+  "name" : "test_subway_field_in_subway_cities[Новосибирск]",
+  "time" : {
+    "start" : 1616225437686,
+    "stop" : 1616225445965,
+    "duration" : 8279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e2ff49fcafb42b",
+  "name" : "test_subway_field_in_subway_cities[Москва и МО]",
+  "time" : {
+    "start" : 1616225364884,
+    "stop" : 1616225372440,
+    "duration" : 7556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ba698ddbc12481",
+  "name" : "test_subway_field_not_in_other_cities[Тамбов]",
+  "time" : {
+    "start" : 1616225484875,
+    "stop" : 1616225503636,
+    "duration" : 18761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd79d8eba5bfe11",
+  "name" : "test_search_results_contain_letter",
+  "time" : {
+    "start" : 1616225529972,
+    "stop" : 1616225536013,
+    "duration" : 6041
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "295833a18d2c22df",
+  "name" : "test_subway_field_in_subway_cities[Самара]",
+  "time" : {
+    "start" : 1616225449887,
+    "stop" : 1616225458574,
+    "duration" : 8687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c5736a03fbe324a",
+  "name" : "test_subway_field_not_in_other_cities[Челябинск]",
+  "time" : {
+    "start" : 1616225507484,
+    "stop" : 1616225526246,
+    "duration" : 18762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369af33be1d5b02b",
+  "name" : "test_subway_field_not_in_other_cities[Краснодар]",
+  "time" : {
+    "start" : 1616225462280,
+    "stop" : 1616225481209,
+    "duration" : 18929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb4ce94021f9d9e9",
+  "name" : "test_subway_field_in_subway_cities[Казань]",
+  "time" : {
+    "start" : 1616225401774,
+    "stop" : 1616225410209,
+    "duration" : 8435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33480ecdca3bd833",
+  "name" : "test_reset_button_is_disabled",
+  "time" : {
+    "start" : 1616225301194,
+    "stop" : 1616225307118,
+    "duration" : 5924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "467d66afee24b63e",
+  "name" : "test_subway_field_in_subway_cities[Санкт-Петербург и ЛО]",
+  "time" : {
+    "start" : 1616225389084,
+    "stop" : 1616225398128,
+    "duration" : 9044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d496d101d623094f",
+  "name" : "test_correct_words_on_choice_button",
+  "time" : {
+    "start" : 1616225329281,
+    "stop" : 1616225348497,
+    "duration" : 19216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

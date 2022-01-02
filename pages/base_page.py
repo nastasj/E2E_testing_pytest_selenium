@@ -16,7 +16,7 @@ class BasePage:
         self.browser.implicitly_wait(timeout)
 
     def delete_ticks_from_checkboxes(self, how, what, ):
-        checkboxes = self.driver.find_elements(how, what)
+        checkboxes = self.browser.find_elements(how, what)
         for checkbox in checkboxes:
             if checkbox.is_selected():
                 checkbox.click()
@@ -51,8 +51,8 @@ class BasePage:
             return True
         return False
 
-    def is_element_disabled(self, how, what):
-        assert self.browser.find_element(how, what).is_enabled() is False
+    def is_element_disabled(self, how, what, propert):
+        assert self.browser.find_element(how, what).get_attribute(propert) == "true"
 
     def is_element_enabled(self, how, what):
         assert self.browser.find_element(how, what).is_enabled()
@@ -99,6 +99,7 @@ class BasePage:
         suggested_list = self.browser.find_elements(how3, what3)
         for i in range(len(suggested_list)):
             suggest = suggested_list[i].get_attribute('textContent')
+            print(suggest)
             if suggest == filling:
                 suggested_list[i].click()
                 break
